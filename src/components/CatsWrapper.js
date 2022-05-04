@@ -1,16 +1,16 @@
 import React from "react"
 import PropTypes from 'prop-types';
-import CardWrapper from "./CardsWrapper";
+import Cats from "./Cats";
 
-export default function Cards({ name, cardText, img }) {
+export default function CatsWrapper({ name, cardText, img }) {
   return (
-    <CardWrapper title='Cats'>
+    <Cats title='Cats'>
       <img src={img}/>
       <div className="card-body">
         <h5 className="card-title">{name}</h5>
         <p className="card-text">{cardText}</p>
         <a href="#" className="btn btn-primary">Go somewhere</a>
       </div>
-    </CardWrapper>
+    </Cats>
   )
 }

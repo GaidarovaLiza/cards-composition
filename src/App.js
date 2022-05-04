@@ -1,12 +1,12 @@
 import './App.css';
-import Cards from './components/Cards';
+import CatsWrapper from './components/CatsWrapper';
 import data from './data'
 
 function App() {
   return (
     <div className="wrapper">
       {data.map(card =>
-        <Cards
+        <CatsWrapper
           key={card.name}
           name={card.name}
           cardText={card.cardText}
