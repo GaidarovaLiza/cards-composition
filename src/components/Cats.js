@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-export default function Cats({ children, title }) {
+export default function CatWrapper({ children, title }) {
 	return (
 		<div className="card">
 			<div className="card-details">
